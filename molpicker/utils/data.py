@@ -10,7 +10,7 @@ from torchvision.datasets import CocoDetection
 from torchvision.transforms import ToTensor
 
 
-def load_coco_detection_dataset(
+def load_coco_detection_dataset_for_generalized_rcnn(
         root: str,
         ann_file: str,
 ) -> CocoDetection:
